@@ -1,0 +1,112 @@
+.career-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    width: 50%;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    padding: 1rem 0;
+    position: relative;
+
+    button:nth-child(1) {
+        top: 0;
+        right: 0;
+        position: absolute;
+        border: none;
+    }
+}
+
+.careerFormHeading {
+    background-color: #ef750f;
+    padding: 1rem 4rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.career-form form {
+    background-color: #fff;
+    margin: 1rem 0;
+    padding: 1rem;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+
+    @media (width<=768px) {
+        margin: 0.5rem 0;
+        padding: 0rem;
+        box-shadow: none;
+    }
+}
+
+.career-form button {
+    font-weight: 600;
+}
+
+.alertMsg {
+    color: red;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 0.25rem;
+    text-align: center;
+}
+
+.selectFileBox {
+    border: 2px dashed #ef750f;
+    border-radius: 0.25rem;
+    position: relative;
+    height: 5rem;
+
+    label {
+        width: 50%;
+        position: absolute;
+        left: 57%;
+        transform: translateX(-50%);
+        top: 0.5rem;
+        font-size: 0.75rem;
+        color: #444;
+        font-weight: 500;
+        text-wrap: nowrap;
+    }
+
+    .inputFile {
+        width: 50%;
+        position: absolute;
+        left: 57%;
+        transform: translateX(-50%);
+        bottom: 0;
+        border: none;
+        color: transparent;
+        font-size: 0.75rem;
+        cursor: pointer;
+    }
+}
+
+@media (width<=768px) {
+    .career-form {
+        margin-top: 0;
+        padding: 0.5rem 0;
+        width: 100%;
+
+        input,
+        select {
+            margin: 0.25rem 0 !important;
+        }
+
+        button {
+            margin: 0 !important;
+        }
+    }
+
+    .careerFormHeading {
+        background-color: #ef750f;
+        padding: 1rem;
+    }
+
+    .selectFileBox {
+        margin-bottom: 0.5rem;
+    }
+}

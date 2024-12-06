@@ -1,0 +1,24 @@
+.thankYouForm {
+    background: #fff;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 5;
+    border-radius: .5rem;
+    border: 1px solid rgba(0, 0, 0, .1);
+    /* pointer-events: none; */
+    /* img{
+        width: 100%;
+        height: 100%;
+    } */
+
+    .thank-icons {
+        font-size: 5rem;
+        color: green;
+    }
+}

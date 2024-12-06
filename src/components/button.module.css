@@ -1,0 +1,39 @@
+.darkBlueButton {
+    background-color: var(--global-btnBackground-color);
+    border: none;
+    width: 100%;
+    height: 40px;
+    min-width: 150px;
+    display: block;
+    color: #fff;
+    margin: 0.5rem 0;
+    font-size: 90%;
+    padding: 0.5rem .75rem;
+
+    &:hover {
+        color: #fff;
+        background-color: var(--global-btn-onHover);
+    }
+}
+
+
+.whiteButton {
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem;
+    width: 40%;
+    min-width: 150px;
+    display: block;
+    margin-top: 2rem;
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+/* button {
+     border: none;
+     border-radius: 2rem;
+     padding: 1rem;
+     width: 40%;
+     display: block;
+     margin-top: 2rem;
+ } */
