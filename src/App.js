@@ -1,9 +1,8 @@
-import logo from "./logo.svg";
 import "./App.css";
 import CareerFormPopUp from "./components/CareerFormPopUp";
 
 function App() {
-  const [isCareerFormOpen, setIsCareerFormOpen] = useState(false);
+  const [isCareerFormOpen, setIsCareerFormOpen] = useState(true);
   const [careerModal, setCareerModal] = useState("TRU Caller");
 
   const handleJobForm = useCallback((selectedJobTitle) => {
